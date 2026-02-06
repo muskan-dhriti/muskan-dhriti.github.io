@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolMarm_</title>
+    <meta name="description"
+        content="A curated portfolio of stunning art and craft creations. Discover the intersection of creativity and craftsmanship.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <div class="bg-particles" id="particles"></div>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">SCHOOL<span>MARM_</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Crafting <span>Dreams</span> Into Reality</h1>
+                <p class="hero-subtitle">Influencer & Creator in the world of Visual Arts and Handmade Crafts.</p>
+                <div class="hero-btns">
+                    <a href="#gallery" class="btn btn-primary">View My Work</a>
+                    <a href="mailto:muskandhriti@gmail.com" class="btn btn-secondary">Let's Collaborate</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Visual Excellence</h2>
+                    <p>A collection of my recent masterpieces and creative experiments.</p>
+                </div>
+                <div class="carousel-wrapper">
+                    <button class="nav-btn prev-btn" data-target="portfolio-gallery"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <div class="gallery-grid" id="portfolio-gallery">
+                        <div class="gallery-item tilt">
+                            <video src="videos/1.mp4" autoplay muted loop playsinline></video>
+                            <div class="like-wrapper">
+                                <div class="like-btn"><i class="fas fa-heart"></i></div>
+                            </div>
+                            <div class="item-overlay">
+
+                            </div>
+                        </div>
+                        <div class="gallery-item tilt">
+                            <video src="videos/2.mp4" autoplay muted loop playsinline></video>
+                            <div class="like-wrapper">
+                                <div class="like-btn"><i class="fas fa-heart"></i></div>
+                            </div>
+                            <div class="item-overlay">
+
+                            </div>
+                        </div>
+                        <div class="gallery-item tilt">
+                            <video src="videos/3.mp4" autoplay muted loop playsinline></video>
+                            <div class="like-wrapper">
+                                <div class="like-btn"><i class="fas fa-heart"></i></div>
+                            </div>
+                            <div class="item-overlay">
+
+                            </div>
+                        </div>
+                        <div class="gallery-item tilt">
+                            <video src="videos/4.mp4" autoplay muted loop playsinline></video>
+                            <div class="like-wrapper">
+                                <div class="like-btn"><i class="fas fa-heart"></i></div>
+                            </div>
+                            <div class="item-overlay">
+
+                            </div>
+                        </div>
+                        <div class="gallery-item tilt">
+                            <video src="videos/5.mp4" autoplay muted loop playsinline></video>
+                            <div class="like-wrapper">
+                                <div class="like-btn"><i class="fas fa-heart"></i></div>
+                            </div>
+                            <div class="item-overlay">
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav-btn next-btn" data-target="portfolio-gallery"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="wall-paintings" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Wall Paintings</h2>
+                    <p>Hand-painted masterpieces designed to transform spaces.</p>
+                </div>
+                <div class="carousel-wrapper">
+                    <button class="nav-btn prev-btn" data-target="wall-painting-grid"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <div class="artwork-grid" id="wall-painting-grid">
+                        <!-- Populated by JS -->
+                    </div>
+                    <button class="nav-btn next-btn" data-target="wall-painting-grid"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="posters" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Creative Posters</h2>
+                    <p>Digital and traditional poster art that speaks volumes.</p>
+                </div>
+                <div class="carousel-wrapper">
+                    <button class="nav-btn prev-btn" data-target="poster-grid"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <div class="artwork-grid" id="poster-grid">
+                        <!-- Populated by JS -->
+                    </div>
+                    <button class="nav-btn next-btn" data-target="poster-grid"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="rang-de-gorakhpur" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Rang De Gorakhpur</h2>
+                    <p>A community initiative where I join hands with my followers to paint and transform public spaces
+                        into vibrant art canvases.</p>
+                </div>
+                <div class="banner-wrapper" style="margin-bottom: 3rem;">
+                    <img src="background.jpeg" alt="Rang De Gorakhpur Event"
+                        style="width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                </div>
+                <div class="carousel-wrapper">
+                    <button class="nav-btn prev-btn" data-target="rang-de-grid"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <div class="artwork-grid" id="rang-de-grid">
+                        <!-- Populated by JS -->
+                    </div>
+                    <button class="nav-btn next-btn" data-target="rang-de-grid"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile Bottom Navigation (App-like feel) -->
+        <nav class="mobile-nav">
+            <a href="#home" class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#gallery" class="nav-item">
+                <i class="fas fa-images"></i>
+                <span>Gallery</span>
+            </a>
+            <a href="#process" class="nav-item">
+                <i class="fas fa-magic"></i>
+                <span>Process</span>
+            </a>
+            <a href="#about" class="nav-item">
+                <i class="fas fa-user-circle"></i>
+                <span>Me</span>
+            </a>
+        </nav>
+
+        <section id="process" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">The Creative Journey</h2>
+                    <p>From a spark of inspiration to a tangible masterpiece.</p>
+                </div>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-num">01</div>
+                        <h3>Conceptualize</h3>
+                        <p>Every piece starts with a story, a mood board, and detailed sketches to define the vision.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <h3>Craftsmanship</h3>
+                        <p>Hours of dedicated work using premium materials and time-honored techniques.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <h3>Refinement</h3>
+                        <p>Polishing every detail until the piece resonates with its intended emotion.</p>
+                    </div>
+                </div>
+            </div>
+            <section id="education" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Professional Experience</h2>
+                        <p>Building the foundation of my creative expertise through teaching and leadership.
+                        </p>
+                    </div>
+                    <div class="education-timeline">
+                        <div class="edu-item">
+                            <span class="edu-year">2025 - 2026</span>
+                            <h3 class="edu-title">Art and Craft Teacher</h3>
+                            <span class="edu-loc">RPM Academy</span>
+                            <p>Inspiring creativity and teaching artisan techniques to young minds.</p>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-year">2023 - 2025</span>
+                            <h3 class="edu-title">Pre-primary Teacher and Coordinator</h3>
+                            <span class="edu-loc">NPA Senior Secondary School</span>
+                            <p>Coordinated curriculum and fostered holistic development through arts and crafts.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <div class="container about-grid">
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="profile.jpeg" alt="Artist Profile">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">The Mind Behind The Art</h2>
+                        <p>I am a passionate creator who believes that every stroke and every stitch tells a story. With
+                            3+ years of experience in digital and traditional arts, I help brands and individuals
+                            bring
+                            their visions to life through texture and color.</p>
+                        <div class="stats">
+                            <div class="stat-item social-stat youtube">
+                                <i class="fab fa-youtube yt-icon"></i>
+                                <span class="stat-number" data-target="544">0</span>K+
+                                <p>Subscribers</p>
+                            </div>
+                            <div class="stat-item social-stat insta">
+                                <i class="fab fa-instagram insta-icon"></i>
+                                <span class="stat-number" data-target="71">0</span>K+
+                                <p>Followers</p>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="200">0</span>+
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="15">0</span>+
+                                <p>Workshops</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/schoolmarm_?igsh=MnBsZG5hdWJreG1m" target="_blank"
+                    title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/muskan-dhriti-2171b2305?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/@schoolmarm_" target="_blank" title="YouTube"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="mailto:muskandhriti@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2026 MUSKAN ARTISTRY. Crafted with Love & Creativity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
